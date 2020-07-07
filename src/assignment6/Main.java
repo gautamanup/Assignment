@@ -1,3 +1,4 @@
+
 package assignment6;
 import java.util.*;
 
@@ -14,10 +15,6 @@ public class Main {
 		TakeOutMethods obj = new TakeOutMethods(); 
 		
 		Scanner sc = new Scanner(System.in);
-		
-		
-		System.out.println("");
-		System.out.println(" \t ==========================\n \n");
 		System.out.print(" Please specify order for number of people: ");
 		int input = sc.nextInt(); 
 		
@@ -25,13 +22,13 @@ public class Main {
 		if (input < 10 )
 		{
 			System.out.println(" Number of people are invalid. Sorry  ");
-			System.out.println("##### END OF THE PROGRAM #####");
+			System.out.println("Invalid Program");
 			return;
 		}
 		
 			obj.displayMainMenu();
 			
-			System.out.print("\n Choose a type you would like to order: ");
+			System.out.print(" Please Specify your food type");
 			typeOfMeal = sc.nextInt(); 
 			
 			switch(typeOfMeal) {
@@ -118,35 +115,34 @@ public class Main {
 						break; 
 				default: 
 						System.out.println("\n\n\t You entered invalid option. Thank you.");
-						System.out.println("\n\n\t  ##### END OF THE PROGRAM ##### ");
+						System.out.println("Invalid Program ");
 						return; 
 			}
 			
-			// Variable that stores number of trays needed 
+			
 			trayNeeded = obj.determineTrays(input, feeds); 
 			
-			// Variable that stores total price before tax and tips 
+ 
 			subTotalPrice = obj.getSubtotal(price, trayNeeded); 
 			
-			// Variable that stores total tax price
+
 			totalTax = obj.getTax(subTotalPrice, TAXRATE);
 			
-			// Variable that stores total tip price
+
 			totalTip = obj.getTip(subTotalPrice, TIPRATE);
 			
-			// Variable that stores grand total  after tips and tax 
+
 			grandTotal = obj.getGrandTotal(subTotalPrice, totalTax, totalTip);
 			
-			// Variable that stores per person charge 
+
 			perPerson = obj.pricePerPerson(grandTotal, input);
 			
-			// Variable that stores if any left over is there
+			
 			leftOver = obj.determineLeftOvers(feeds, trayNeeded, input);
 			
 			
-			//OUTPUTS  DISPLAYED ON THE SCREEN
-			System.out.println("\n\t======================================================");
-			System.out.println("\n \t !!!!!!!!! HERE IS THE FINAL OUTPUT !!!!!!!!!\n ");
+			
+
 			
 			System.out.printf("\n\t You need %d trays "
 							   + "\n\n \t Feeds: %d " 
@@ -160,8 +156,7 @@ public class Main {
 							   subTotalPrice , totalTax  , totalTip, 
 							   grandTotal , perPerson, leftOver);
 			
-			System.out.println("\n\n\t======================================================");
-			System.out.println("\n\n\t  ##### END OF THE PROGRAM ##### ");
+			System.out.println("Thank you for choosing our restaurant");
 			
 				
 		}
