@@ -12,7 +12,7 @@ public class Question27 {
 		Scanner sc = new Scanner(System.in); 
 		
 		System.out.print("\nEnter the number: ");
-		int number = sc.nextInt();
+	int number = sc.nextInt();
 		
 		
 		int sum =0, multiplication =1; 

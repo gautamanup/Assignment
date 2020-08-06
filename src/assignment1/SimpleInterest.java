@@ -7,7 +7,7 @@ public class SimpleInterest {
 		int T;
 		int R;
 		int Simple_Interest;
-		 System.out.println("Enter Principle, Rate and Time");
+	 System.out.println("Enter Principle, Rate and Time");
 		
 		Scanner input = new Scanner (System.in);
 		P = input.nextInt();

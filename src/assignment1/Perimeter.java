@@ -6,7 +6,7 @@ public class Perimeter
     {
         Perimeter obj = new Perimeter();
         obj.circle();
-        obj.rectangle();
+    obj.rectangle();
         obj.triangle();
     }
     int r, l, b, s1, s2, s3;

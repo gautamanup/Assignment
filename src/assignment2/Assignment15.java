@@ -19,7 +19,7 @@ public class Assignment15 {
 	public final static int nextChar(Scanner scanner) {
 		
 		int ret = scanner.next().charAt(0);
-		scanner.reset();
+	scanner.reset();
 		return ret; 
 	}
 }

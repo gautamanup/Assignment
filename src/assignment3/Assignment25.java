@@ -15,12 +15,12 @@ public class Assignment25 {
 			
 			if (score>maxScore) {
 				maxScore= score;
-				studentName= name;
+			studentName= name;
 				
 			}
 		}
 			System.out.println("Student with high score is :" +studentName +" "+ maxScore);
-		input.close();
+		//input.close();
 		}
 	
 }

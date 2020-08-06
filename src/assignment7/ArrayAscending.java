@@ -11,7 +11,7 @@ public class ArrayAscending {
     	
     	//User inputs the array size
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter number of elements you want in the array: ");
+      System.out.print("Enter number of elements you want in the array: ");
         count = scan.nextInt();
     
         int num[] = new int[count];

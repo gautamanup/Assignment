@@ -8,7 +8,7 @@ public class Area {
 		float area;
 		System.out.println("Enter the semi perimeter of triangle");
 		float s = in.nextFloat();
-		System.out.println("Enter the first side");
+	System.out.println("Enter the first side");
 		float a= in.nextFloat();
 		System.out.println("Enter the second side");
 		float b= in.nextFloat();

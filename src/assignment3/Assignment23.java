@@ -7,7 +7,7 @@ public class Assignment23 {
         Scanner scanner = new Scanner(System.in);
 
         // Take number from user
-        System.out.print("Enter any number : ");
+    System.out.print("Enter any number : ");
         int num = scanner.nextInt();
 
         int sum = 0;

@@ -6,7 +6,7 @@ public class TemperatureConversion {
 	public static void main (String[] args) {
 	
 
-		        Scanner in = new Scanner(System.in);
+      Scanner in = new Scanner(System.in);
 		        
 		        System.out.println("Enter temperature in Celsius: ");
 		        double C = in.nextDouble();

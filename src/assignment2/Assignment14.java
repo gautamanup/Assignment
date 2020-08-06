@@ -4,7 +4,7 @@ public class Assignment14 {
  public static void main( String args[] )    
     {
      
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
         int number1; 
         int number2;   
       

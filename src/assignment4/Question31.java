@@ -15,7 +15,7 @@ public class Question31 {
 		System.out.println("\nPrinting pattern\n");
 		
 		System.out.print("Enter the number: ");
-		int number = sc.nextInt();
+	int number = sc.nextInt();
 		
 		obj.printPattern(number);
 		

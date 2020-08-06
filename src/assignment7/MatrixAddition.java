@@ -9,7 +9,7 @@ public static void main(String args[]){
 
 	    System.out.println("Enter the number of rows and columns of matrix");
 	    m = in.nextInt();
-	    n = in.nextInt();
+    n = in.nextInt();
 
 	    int first[][] = new int[m][n];
 	    int second[][] = new int[m][n];

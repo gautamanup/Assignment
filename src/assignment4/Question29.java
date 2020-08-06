@@ -24,7 +24,7 @@ public class Question29 {
 	public void mathematical(int a)
 	{
 		double total  =0;
-		if(a >=0 && a<=1)
+	if(a >=0 && a<=1)
 			total = 1; 
 		else 
 		{	

@@ -11,13 +11,13 @@ public class WeightConversion {
 	
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in); 
+	Scanner input = new Scanner(System.in); 
 		
 		
 		JOptionPane.showMessageDialog(null, "Program that converts pounds into kg");
 		
-		double value = Double.parseDouble(JOptionPane.showInputDialog("Enter the weight in pounds: ")); 
-		
+		//double value = Double.parseDouble(JOptionPane.showInputDialog("Enter the weight in pounds: ")); 
+		double value= input.nextDouble();
 		convertPoundToKg(value);
 		
 		
@@ -31,3 +31,6 @@ public class WeightConversion {
 		JOptionPane.showMessageDialog(null, value + " pounds is equal to " + result + " Kg.");
 	}
 }
+
+
+

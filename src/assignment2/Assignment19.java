@@ -18,7 +18,7 @@ System.out.println ("Enter third side of the triangle");
 
 int c = input.nextInt();
 
-    if (a==b && b==c)
+ if (a==b && b==c)
     System.out.println("The triangle is an equilateral triangle");
     if 		((a==b && b!=c && a!=c) 
     		|| (b==c && b!=a && c!=a) 

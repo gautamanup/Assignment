@@ -10,7 +10,7 @@ public class Volume {
 		Scanner input = new Scanner (System.in);
 		System.out.println("Enter the radius:");
         double r =input.nextDouble();
-        System.out.println("Enter the height:");
+   System.out.println("Enter the height:");
         double h=input.nextDouble();
 
            double  volume=(pi*r*r*h);
@@ -19,6 +19,6 @@ public class Volume {
 		
 		
 
-	}
+}
 
 }

@@ -7,7 +7,7 @@ public class Question28 {
 	public static void main(String[] args) {
 
 		
-		Scanner sc = new Scanner(System.in); 
+	Scanner sc = new Scanner(System.in); 
 		Question28 obj = new Question28(); 
 		
 		System.out.println("To check either the given number is prime or not");

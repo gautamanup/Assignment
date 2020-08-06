@@ -5,7 +5,7 @@ public class Assignment22 {
 
     public static void main(String[] args) 
     {
-        Scanner s = new Scanner(System.in);
+    Scanner s = new Scanner(System.in);
 	System.out.print("Enter number:");        
 	int n=s.nextInt();
         for(int i=1; i <= 10; i++)
